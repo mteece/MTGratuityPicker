@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544EE579178219EF00C8FFF2 /* MTTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544EE577178219EF00C8FFF2 /* MTTipViewController.m */; };
+		544EE57A178219EF00C8FFF2 /* MTTipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544EE578178219EF00C8FFF2 /* MTTipViewController.xib */; };
+		544EE57F17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544EE57D17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.m */; };
+		544EE58017821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544EE57E17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.xib */; };
 		546605C1177EF14B00632C9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546605C0177EF14B00632C9B /* UIKit.framework */; };
 		546605C3177EF14B00632C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546605C2177EF14B00632C9B /* Foundation.framework */; };
 		546605C5177EF14B00632C9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546605C4177EF14B00632C9B /* CoreGraphics.framework */; };
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544EE576178219EF00C8FFF2 /* MTTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTipViewController.h; sourceTree = "<group>"; };
+		544EE577178219EF00C8FFF2 /* MTTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTipViewController.m; sourceTree = "<group>"; };
+		544EE578178219EF00C8FFF2 /* MTTipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTTipViewController.xib; sourceTree = "<group>"; };
+		544EE57B17821A2000C8FFF2 /* MTTipViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTipViewControllerDelegate.h; sourceTree = "<group>"; };
+		544EE57C17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGratuityPickerExampleViewController.h; sourceTree = "<group>"; };
+		544EE57D17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGratuityPickerExampleViewController.m; sourceTree = "<group>"; };
+		544EE57E17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTGratuityPickerExampleViewController.xib; sourceTree = "<group>"; };
 		546605BD177EF14B00632C9B /* MTGratuityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGratuityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546605C0177EF14B00632C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		546605C2177EF14B00632C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,6 +168,10 @@
 		546605F5177EF26400632C9B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				544EE576178219EF00C8FFF2 /* MTTipViewController.h */,
+				544EE577178219EF00C8FFF2 /* MTTipViewController.m */,
+				544EE578178219EF00C8FFF2 /* MTTipViewController.xib */,
+				544EE57B17821A2000C8FFF2 /* MTTipViewControllerDelegate.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -164,6 +179,9 @@
 		546605F6177EF29800632C9B /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				544EE57C17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.h */,
+				544EE57D17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.m */,
+				544EE57E17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.xib */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -244,6 +262,8 @@
 				546605D3177EF14B00632C9B /* Default.png in Resources */,
 				546605D5177EF14B00632C9B /* Default@2x.png in Resources */,
 				546605D7177EF14B00632C9B /* Default-568h@2x.png in Resources */,
+				544EE57A178219EF00C8FFF2 /* MTTipViewController.xib in Resources */,
+				544EE58017821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +300,8 @@
 			files = (
 				546605CD177EF14B00632C9B /* main.m in Sources */,
 				546605D1177EF14B00632C9B /* MTAppDelegate.m in Sources */,
+				544EE579178219EF00C8FFF2 /* MTTipViewController.m in Sources */,
+				544EE57F17821D2A00C8FFF2 /* MTGratuityPickerExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +368,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -370,7 +392,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

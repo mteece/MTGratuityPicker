@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Matthew Teece. All rights reserved.
 //
 
+#import "MTGratuityPickerExampleViewController.h"
+
 #import "MTAppDelegate.h"
 
 @implementation MTAppDelegate
@@ -14,6 +16,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    MTGratuityPickerExampleViewController* exController = [[MTGratuityPickerExampleViewController alloc] initWithNibName:@"MTGratuityPickerExampleViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:exController];
+    [exController setTitle:@"Example"];
+    self.window.rootViewController = navigationController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
