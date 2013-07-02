@@ -78,7 +78,7 @@ You can also override the title, and button text. The UIPickerView uses the **NS
 
 ### Creators
 
-[Matthew Teece](http://github.com/doctorteece)
+[Matthew Teece](http://github.com/mteece)
 [@doctorteece](https://twitter.com/doctorteece)
 
 
