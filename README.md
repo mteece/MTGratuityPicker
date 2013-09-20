@@ -4,13 +4,13 @@
 
 A custom UIActionSheet for adding tip/gratuity. Contains a UIPickerView, and accessories to handle tip/gratuity in dollar amounts as well as percentage amounts. Once a tip/gratuity is selected the Delegate is called returning the tip/gratuity amount, total, and percentage.
 
-![Screenshot](https://raw.github.com/mteece/MTGratuityPicker/master/MTGratuityPicker/MTGratuityPicker/Images/mtgratuitypicker-0.png)
+![Screenshot](https://raw.github.com/mteece/MTGratuityPicker/master/MTGratuityPicker/MTGratuityPicker/Images/mtgratuitypicker-1.png)
 
 
 ## Installation
 
 ### CocoaPods
-* `pod 'MTGratuityPicker', '~> 0.0.1`
+* `pod 'MTGratuityPicker', '~> 0.0.2`
 * Import the headers: `import <MTTipViewController.h>` `#import <MTTipViewControllerDelegate.h>`
 
 ### Manually
