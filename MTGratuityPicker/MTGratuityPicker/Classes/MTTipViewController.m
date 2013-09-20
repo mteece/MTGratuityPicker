@@ -31,7 +31,7 @@
 @synthesize addTipPrompt;
 @synthesize cancelTipPrompt;
 
-- (id) initWithSubtotal:(NSDecimalNumber *)amount
+- (instancetype) initWithSubtotal:(NSDecimalNumber *)amount
 {
     self = [super initWithNibName:@"MTTipViewController" bundle:nil];
     if (self) {
@@ -44,7 +44,7 @@
     return self;
 }
 
-- (id)initWithSubtotalAndSelectedPercentage:(NSDecimalNumber *)amount selectedPercentage:(NSDecimalNumber *)percentage
+- (instancetype)initWithSubtotalAndSelectedPercentage:(NSDecimalNumber *)amount selectedPercentage:(NSDecimalNumber *)percentage
 {
     self = [super initWithNibName:@"MTTipViewController" bundle:nil];
     if (self) {
@@ -57,7 +57,7 @@
     return self;
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -142,7 +142,7 @@
     
     UIBarButtonItem *btnBarCancel = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(btnBarCancelClicked:)];
     btnBarCancel.possibleTitles = [NSSet setWithObjects:[self cancelTipPrompt], @"Void", nil];
-    btnBarCancel.tintColor = [UIColor darkGrayColor];
+    btnBarCancel.tintColor = [UIColor grayColor];
     [barItems addObject:btnBarCancel];
     
     if ([self addTipPrompt] == nil || [[self addTipPrompt] length] <= 0) {
@@ -151,7 +151,7 @@
     
     UIBarButtonItem *btnAddTip = [[UIBarButtonItem alloc] initWithTitle:[self addTipPrompt] style:UIBarButtonItemStyleBordered  target:self action:@selector(btnAddTipClicked:)];
     btnAddTip.style = UIBarButtonItemStyleBordered;
-    btnAddTip.tintColor = [UIColor darkGrayColor];
+    btnAddTip.tintColor = [UIColor whiteColor];
     btnAddTip.possibleTitles = [NSSet setWithObjects:[self addTipPrompt], @"Add", @"Done", nil];
     [barItems addObject:btnAddTip];
     

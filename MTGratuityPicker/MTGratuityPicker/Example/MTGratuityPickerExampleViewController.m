@@ -32,6 +32,8 @@
     
     [btnTip addTarget:self action:@selector(btnTipTouchUpInside:) forControlEvents:UIControlEventTouchUpInside];
     [btnTip setTitle:@"Tip" forState:UIControlStateNormal];
+    [btnTip setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btnTip setBackgroundColor:[UIColor grayColor]];
     
     NSDecimalNumber *total = [NSDecimalNumber decimalNumberWithString:@"25.50"];
     [lblTotal setText:@"Total:"];
